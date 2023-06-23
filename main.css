@@ -166,7 +166,7 @@ hr {
 }
 .Máquina_Envasadora {
     border: 1px solid black;
-    background-image: url("/img/LLENADORAS---CERRADORAS.jpg");
+    background-image: url("/WEB-PROJECTE/img/LINEA-DE-ENVASADO-DE-PRODUCTOS-VETERINARIOS.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -181,7 +181,7 @@ hr {
 
 .Máquina_Llenadora {
     border: 1px solid black;
-    background-image: url("/img/LINEA-DE-ENVASADO-DE-PRODUCTOS-VETERINARIOS.jpg");
+    background-image: url("/WEB-PROJECTE/img/LLENADORAS---CERRADORAS.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -195,7 +195,7 @@ hr {
 
 .Máquina_Estuchadora {
     border: 1px solid black;
-    background-image: url("/img/ESTUCHADORAAA.jpeg");
+    background-image: url("/WEB-PROJECTE/img/ESTUCHADORAAA.jpeg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -211,7 +211,7 @@ hr {
 
 .Máquina_Flow_Pack {
     border: 1px solid black;
-    background-image: url("/img/flowpack-carrusel.jpg");
+    background-image: url("/WEB-PROJECTE/img/flowpack-carrusel.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -226,7 +226,7 @@ hr {
 
 .Máquina_Enfajadora {
     border: 1px solid black;
-    background-image: url("/img/Enfajadora.jpg");
+    background-image: url("/WEB-PROJECTE/img/Enfajadora.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -240,7 +240,7 @@ hr {
 
 .Máquina_Retráctil {
     border: 1px solid black;
-    background-image: url("/img/Retráctil.jpg");
+    background-image: url("/WEB-PROJECTE/img/Retráctil.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -256,7 +256,7 @@ hr {
 
 .Tunel_Retroacción {
     border: 1px solid black;
-    background-image: url("/img/tunel retraccion.jpg");
+    background-image: url("/WEB-PROJECTE/img/tunel\ retraccion.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -270,7 +270,7 @@ hr {
 
 .Cinta_Transportadora {
     border: 1px solid black;
-    background-image: url("/img/cintas-transportadoras.jpg");
+    background-image: url("/WEB-PROJECTE/img/cintas-transportadoras.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -284,7 +284,7 @@ hr {
 
 .Camino_Rodillos {
     border: 1px solid black;
-    background-image: url("/img/camino\ rodillos.jpg");
+    background-image: url("/WEB-PROJECTE/img/camino\ rodillos.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
@@ -298,7 +298,7 @@ hr {
 
 .Cinta_Sleever {
     border: 1px solid black;
-    background-image: url("/img/cinta-sleever.jpg");
+    background-image: url("/WEB-PROJECTE/img/cinta-sleever.jpg");
     width: 670px;
     height: 320px;
     background-size: cover;
