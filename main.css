@@ -1,0 +1,471 @@
+body {
+    display: flex; /* Establece el contenedor principal del cuerpo del documento como un contenedor flexible */
+    flex-direction: column; /* Configura la dirección de los elementos hijos como columna */
+    margin: 0; /* Elimina los márgenes en el cuerpo */
+    padding: 0; /* Elimina el relleno en el cuerpo */
+    font-family: sans-serif; /* Establece la fuente para todo el contenido dentro del cuerpo */
+    min-width: 1900px;
+}
+
+/* Estilos para el encabezado */
+header {
+    position: relative; /* Establece la posición relativa para el encabezado */
+    background-image: url("/img/nave-industrial.webp"); /* Establece una imagen de fondo para el encabezado */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el área */
+    background-position: center; /* Centra la imagen de fondo dentro del encabezado */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    padding: 20px; /* Añade un relleno alrededor del contenido del encabezado */
+    
+}
+
+/* Estilos para el título dentro del encabezado */
+.titulo {
+    display: flex; /* Establece el contenedor de título como un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    position: relative; /* Establece la posición relativa para el título */
+    z-index: 1; /* Define la posición en la pila de elementos */
+}
+
+h1 {
+    font-size: 70px; /* Establece el tamaño de fuente para el título */
+    font-weight: bold; /* Establece el grosor de la fuente en negrita */
+    margin-right: 50px; /* Establece un margen derecho para el título */
+    color:black; /* Establece el color del texto del título como rojo */
+}
+
+figure {
+    width: 100%; /* Establece el ancho del elemento figure al 100% */
+    height: 250px; /* Establece la altura del elemento figure en 250 píxeles */
+    margin: 0; /* Elimina los márgenes en el elemento figure */
+    display: flex; /* Establece el elemento figure como un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+}
+
+figure img {
+    width: 250px; /* Establece el ancho de la imagen dentro del elemento figure */
+    /*filter: brightness(150%) sepia(100%) hue-rotate(180deg);*/ /* Comentario: Este estilo está comentado y no tiene efecto en la imagen */
+}
+
+details {
+    color: blue;
+    margin-bottom: 10px;
+}
+summary {
+    margin-bottom: 10px;
+}
+
+.registro {
+    display: flex; /* Establece el contenedor de registro como un contenedor flexible */
+    font-size: 50px; /* Establece el tamaño de fuente para el contenido de registro */
+    justify-content: space-around; /* Distribuye el espacio horizontalmente entre los elementos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    background-color: grey; /* Establece el color de fondo del contenedor de registro como gris */
+    padding: 10px; /* Añade un relleno alrededor del contenido del contenedor */
+}
+
+.iniciar_registrar ul {
+    display: flex; /* Establece la lista dentro de .iniciar_registrar como un contenedor flexible */
+    list-style: none; /* Elimina los marcadores de lista de la lista */
+    margin: 0; /* Elimina los márgenes en la lista */
+    padding: 0; /* Elimina el relleno en la lista */
+}
+
+.iniciar_registrar ul li {
+    margin-right: 100px; /* Establece un margen derecho para cada elemento de lista en la lista */
+}
+
+.iniciar_registrar ul li a {
+    text-decoration: none; /* Elimina la decoración de enlace para los elementos de lista */
+    color: black; /* Establece el color del texto del enlace como negro */
+}
+
+/* Estilos para la sección principal */
+.pagina {
+    display: flex; /* Establece la sección principal como un contenedor flexible */
+}
+
+menu {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 0; /* Elimina el margen superior en el menú */
+    margin-bottom: 0; /* Elimina el margen inferior en el menú */
+    background-color: rgb(210, 208, 208); /* Establece el color de fondo del menú */
+    /*flex: 1; /* Establece la expansión flexible del menú para ocupar el espacio disponible */
+    border-right: 1px solid black;
+    flex-basis: 10%;
+}
+
+menu ul, aside ul {
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+
+aside h3 {
+    padding-left: 40px;
+}
+menu ul li, aside ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+menu ul li a, aside ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+section {
+    padding-bottom: 30px;
+    background-color: navy;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.comprar_máquina{
+    display: flex;
+   width: 80%;
+
+}
+
+
+.caja_producto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    
+}
+
+.comprar_máquina {
+    display: block;
+    margin-top: 340px; /* Ajusta el valor según el espacio que desees entre la imagen y el botón */
+    text-align: left;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 25px;
+    font-size: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    
+    
+}
+.comprar_máquina:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    margin-top: 35px;
+    
+}
+.Máquina_Envasadora {
+    border: 1px solid black;
+    background-image: url("/img/LLENADORAS---CERRADORAS.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    margin-right: 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); 
+     
+}
+
+.Máquina_Llenadora {
+    border: 1px solid black;
+    background-image: url("/img/LINEA-DE-ENVASADO-DE-PRODUCTOS-VETERINARIOS.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543); 
+}
+
+
+.Máquina_Estuchadora {
+    border: 1px solid black;
+    background-image: url("/img/ESTUCHADORAAA.jpeg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    margin-right: 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    
+     
+}
+
+.Máquina_Flow_Pack {
+    border: 1px solid black;
+    background-image: url("/img/flowpack-carrusel.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543);
+    
+}
+
+
+.Máquina_Enfajadora {
+    border: 1px solid black;
+    background-image: url("/img/Enfajadora.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543);
+     
+}
+
+.Máquina_Retráctil {
+    border: 1px solid black;
+    background-image: url("/img/Retráctil.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543); 
+    justify-content: space-around; 
+ 
+}
+
+
+.Tunel_Retroacción {
+    border: 1px solid black;
+    background-image: url("/img/tunel retraccion.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543);  
+   
+}
+
+.Cinta_Transportadora {
+    border: 1px solid black;
+    background-image: url("/img/cintas-transportadoras.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543);  
+    justify-content: space-around;
+}
+
+.Camino_Rodillos {
+    border: 1px solid black;
+    background-image: url("/img/camino\ rodillos.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543);
+   
+}
+
+.Cinta_Sleever {
+    border: 1px solid black;
+    background-image: url("/img/cinta-sleever.jpg");
+    width: 670px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.543); 
+    
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(210, 208, 208); /* Establece el color de fondo del aside */
+    /*flex: 1; /* Establece la expansión flexible del aside para ocupar el espacio disponible */
+    border-left: 1px solid black;
+     flex-basis: 10%;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    width: 100%;
+    font-size: 20px;
+    padding-top: 30px; /* Añade un relleno alrededor del contenido del pie de página */
+    background-color: grey; /* Establece el color de fondo del pie de página como gris */
+    height: auto; /* Establece la altura del pie de página como automática */
+}
+
+.footer-content {
+    display: flex; /* Establece el contenido del pie de página como un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+}
+
+.left-section, .right-section {
+    margin-right: 150px; /* Establece un margen derecho para las secciones izquierda y derecha */
+}
+
+.footer-links,
+.social-links,
+.payment-options ul {
+    padding-left: 0;
+    list-style-type: none; /* Elimina los marcadores de lista en los enlaces del pie de página */
+    text-decoration: none; /* Elimina la decoración de enlace para los enlaces del pie de página */
+}
+
+.footer-links a,
+.social-links a,
+.payment-options a {
+    text-decoration: none; /* Elimina la decoración de enlace para los enlaces del pie de página */
+}
+
+.social-links i,
+.payment-options i {
+    margin-right: 6px; /* Establece un margen derecho para los iconos en los enlaces del pie de página */
+}
+
+/* Estilos para el texto de derechos de autor en el pie de página */
+.copyright {
+    text-align: center; /* Centra el texto de derechos de autor en el pie de página */
+}
+
+/* política de privacidad */
+.container_privacidad{
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Términos de uso */
+.container_terminos {
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* contacto */
+body.quienes-somos {
+    height: 100vh;
+}
+.container_contacto {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Botón volver a inicio*/
+.volver_inicio {
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 25px;
+    font-size: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.boton_centrado {
+    text-align: center;
+}
+.volver_inicio:hover {
+    transform: scale(1.1);
+}
+
+.volver_inicio a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* para tableta*/
+@media screen and (max-width: 768px) {
+
+    
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-top: 0; /* Elimina el margen superior en el menú */
+        margin-bottom: 0; /* Elimina el margen inferior en el menú */
+        background-color: rgb(210, 208, 208); /* Establece el color de fondo del menú */
+        /*flex: 1; /* Establece la expansión flexible del menú para ocupar el espacio disponible */
+        border-right: 1px solid black;
+        flex-basis: 20%;
+    }
+
+    section {
+        padding-bottom: 30px;
+        background-color: navy;
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: rgb(210, 208, 208); /* Establece el color de fondo del aside */
+        /*flex: 1; /* Establece la expansión flexible del aside para ocupar el espacio disponible */
+        border-left: 1px solid black;
+         flex-basis: 20%;
+    }
+}
+    
